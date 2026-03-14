@@ -1,6 +1,25 @@
 # @agentine/inflekt
 
+[![npm version](https://img.shields.io/npm/v/@agentine/inflekt.svg)](https://www.npmjs.com/package/@agentine/inflekt)
+[![npm downloads](https://img.shields.io/npm/dm/@agentine/inflekt.svg)](https://www.npmjs.com/package/@agentine/inflekt)
+[![CI](https://github.com/agentine/inflekt/actions/workflows/ci.yml/badge.svg)](https://github.com/agentine/inflekt/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 TypeScript-first pluralization and singularization engine — drop-in replacement for [pluralize](https://github.com/blakeembrey/pluralize).
+
+## Why inflekt?
+
+| | pluralize | @agentine/inflekt |
+|---|---|---|
+| TypeScript types included | ❌ | ✅ |
+| ESM support | ❌ | ✅ |
+| CJS support | ✅ | ✅ |
+| Zero dependencies | ✅ | ✅ |
+| Actively maintained | ❌ (last release 2019) | ✅ |
+| "cookie" → "cookies" | ❌ ("cooky") | ✅ |
+| "deceased" → "deceased" | ❌ ("deceaseds") | ✅ |
+| Uncountable: feedback, species, hertz | ❌ | ✅ |
+| Compound/hyphenated words | ❌ | ✅ |
 
 ## Installation
 
@@ -90,15 +109,6 @@ Function mapping:
 | `pluralize.addSingularRule(...)` | `addSingularRule(...)` |
 | `pluralize.addIrregularRule(...)` | `addIrregularRule(...)` |
 | `pluralize.addUncountableRule(...)` | `addUncountableRule(...)` |
-
-## Improvements over pluralize
-
-- TypeScript-first with included type definitions
-- ESM + CJS dual-package output
-- Fixes known bugs: "deceased" → "deceased" (not "deceaseds"), "cookie" → "cookies" (not "cooky")
-- Correct handling of uncountable words: species, feedback, hertz, etc.
-- Compound word support (hyphenated words)
-- Zero dependencies
 
 ## License
 
