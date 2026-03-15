@@ -100,7 +100,6 @@ const pairs: [string, string][] = [
   ["birdie", "birdies"],
   ["pixie", "pixies"],
   ["hippie", "hippies"],
-  ["zombie", "zombies"],
   ["smoothie", "smoothies"],
   ["prairie", "prairies"],
   ["goalie", "goalies"],

@@ -123,7 +123,7 @@ describe("singular", () => {
     ["diagnoses", "diagnosis"],
     ["matrices", "matrix"],
     ["vertices", "vertex"],
-    ["appendices", "appendex"],
+    ["appendices", "appendix"],
     ["indices", "index"],
     ["people", "person"],
     ["men", "man"],

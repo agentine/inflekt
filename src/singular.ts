@@ -17,7 +17,7 @@ const rules: Rule[] = [
   { pattern: /(s)eries$/i, replacement: "$1eries" },
   { pattern: /(m)ovies$/i, replacement: "$1ovie" },
   { pattern: /(x|ch|ss|sh)es$/i, replacement: "$1" },
-  { pattern: /([m|l])ice$/i, replacement: "$1ouse" },
+  { pattern: /([ml])ice$/i, replacement: "$1ouse" },
   { pattern: /(bus)es$/i, replacement: "$1" },
   { pattern: /(o)es$/i, replacement: "$1" },
   { pattern: /(shoe)s$/i, replacement: "$1" },
@@ -30,8 +30,8 @@ const rules: Rule[] = [
   { pattern: /(cris|ax|test)es$/i, replacement: "$1is" },
   { pattern: /((a)naly|(b)a|(d)iagno|(p)arenthe|(p)rogno|(s)ynop|(t)he)ses$/i, replacement: "$1sis" },
   { pattern: /(^analy)(sis|ses)$/i, replacement: "$1sis" },
-  { pattern: /(matr|suff)ices$/i, replacement: "$1ix" },
-  { pattern: /(vert|append|ind)ices$/i, replacement: "$1ex" },
+  { pattern: /(matr|suff|append)ices$/i, replacement: "$1ix" },
+  { pattern: /(vert|ind)ices$/i, replacement: "$1ex" },
   { pattern: /(database)s$/i, replacement: "$1" },
 ];
 
