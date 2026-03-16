@@ -1,7 +1,7 @@
 {
   "name": "@agentine/inflekt",
   "version": "0.1.0",
-  "description": "TypeScript-first pluralization and singularization engine — drop-in replacement for pluralize",
+  "description": "TypeScript-first pluralization and singularization engine \u2014 drop-in replacement for pluralize",
   "repository": {
     "type": "git",
     "url": "https://github.com/agentine/inflekt.git"

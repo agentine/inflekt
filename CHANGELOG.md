@@ -7,13 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Fixed
-
-- Singularization of words ending in `-appendix` now correctly yields `-appendix` (was `-appende`)
-- Regex char class pipes no longer treated as alternation operators in rule matching
-- Overly broad `ex` singularization rule narrowed to avoid false matches
-- Removed duplicate `zombie` entry in irregular word pairs
-
 ## [0.1.0] - 2026-03-14
 
 ### Added
@@ -34,3 +27,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixes all 33 known incorrect outputs from `pluralize` (e.g. "cookie" → "cookies", "deceased" → "deceased")
 - Correct uncountable handling: feedback, species, hertz, scissors, and more
 - Compound/hyphenated word support
+
+### Fixed
+
+- Singularization of words ending in `-appendix` now correctly yields `-appendix` (was `-appende`)
+- Regex char class pipes no longer treated as alternation operators in rule matching
+- Overly broad `ex` singularization rule narrowed to avoid false matches
+- Removed duplicate `zombie` entry in irregular word pairs
